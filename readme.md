@@ -28,6 +28,10 @@ Morocco's real estate market.
 
 ## Setup
 
+This project was developed and tested on :
+- `Python 3.13.0`
+- `Pip 24.3.1`
+
 ### 1. Clone the Repository
 
 ```shell
@@ -42,7 +46,7 @@ Create and activate a new environment with the correct Python version:
 #### - Using Pip
 
 ```shell
-python3 -m venv mrea_venv
+python -m venv mrea_venv
 source mrea_venv/bin/activate    # On Linux/MacOS
 mrea_venv\Scripts\activate       # On Windows
 ```
