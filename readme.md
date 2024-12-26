@@ -1,7 +1,5 @@
 # Moroccan real estate market analysis
 
----
-
 ## Summary
 
 Scrape, process, analyze, and visualize data from [Avito.ma](https://www.avito.ma/) to uncover current trends in
@@ -27,8 +25,6 @@ Morocco's real estate market.
         </td>
     </tr>
 </table>
-
----
 
 ## Setup
 
@@ -92,8 +88,6 @@ jupyter notebook
 
 Create a .env file similar to the .env.example file in the project folder and add the necessary keys such as [OpenCageData API key](https://opencagedata.com/)
 
----
-
 ## Usage
 
 ### 1. Fetch Data
@@ -120,11 +114,27 @@ Open the `C-data-analysis.ipynb` notebook to analyze and visualize the processed
 Run the cells to:
 - Extract insights such as geographical distributions and price trends.
 
----
-
 ## Disclaimer
 
 This project interacts with data from Avito.ma. As of the time of creation, Avito.ma does not explicitly state any
 policies about web scraping (including prohibitions) in their publicly accessible terms of service. Therefore, this
 project does not knowingly violate any existing terms. However, users are responsible for ensuring compliance with any
 updates to Avito's terms or policies.
+
+## License
+
+This project is licensed under the Creative Commons Attribution-Non Commercial 4.0 International ( [**CC BY-NC 4.0**
+](https://creativecommons.org/licenses/by-nc/4.0/.)).
+
+You are free to:
+
+- **Share**: Copy and redistribute the material in any medium or format.
+- **Adapt**: Remix, transform, and build upon the material.
+
+Under the following terms:
+
+- **Attribution**: You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- **NonCommercial**: You may not use the material for commercial purposes.
+
+For the full license text,
+visit [https://creativecommons.org/licenses/by-nc/4.0/.](https://creativecommons.org/licenses/by-nc/4.0/.)
