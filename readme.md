@@ -90,13 +90,15 @@ jupyter notebook
 
 ### 6. Create the .env file
 
-Create a .env file similar to the .env.example file in the project folder and add the necessary keys such as [OpenCageData API key](https://opencagedata.com/)
+Create a .env file similar to the .env.example file in the project folder and add the necessary keys such as
+[OpenCageData API key](https://opencagedata.com/)
 
 ## Usage
 
 ### 1. Fetch Data
 
-Open the `A-data-fetching.ipynb` notebook to scrape data from Avito.ma. Ensure the `.env` file is properly configured with your OpenCageData API key.
+Open the `A-data-fetching.ipynb` notebook to scrape data from Avito.ma. Ensure the `.env` file is properly configured
+with your OpenCageData API key.
 
 Run the cells sequentially to:
 - Fetch raw data.
